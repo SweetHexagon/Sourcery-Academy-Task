@@ -62,6 +62,8 @@ Tests:
 3. Get Book by Title and Author:
 * Method: GET
 * URL: http://localhost:8080/books/by-title-author?title=Book1&author=Author1
+* 
+P.S. I calculate avg only when it is necessary (thats why there are "-1" values in some cases), better approach would be to create separate table to contain data about avg rate for each book
 
 
 
